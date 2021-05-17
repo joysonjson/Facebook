@@ -13,7 +13,7 @@ const Login = () => {
         className="text-white text-center bg-blue-500 rounded-full cursor-pointer p-5"
         onClick={signIn}
       >
-        Login With Facebook
+        Login
       </h1>
     </div>
   );
