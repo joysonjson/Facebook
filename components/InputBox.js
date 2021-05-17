@@ -86,7 +86,13 @@ const InputBox = () => {
             ref={inputRef}
             placeholder={`what is on your mind?. ${session.user.name}`}
           />
-          <button hidden type="submit" className="" onClick={sendPost}></button>
+          <button
+            type="submit"
+            className="bg-blue-500 mx-2 h-8 mt-2 text-white px-2 outline-none active:outline-none focus:outline-none rounded-lg"
+            onClick={sendPost}
+          >
+            Post
+          </button>
         </form>
       </div>
       <div className="flex items-center justify-center ">
