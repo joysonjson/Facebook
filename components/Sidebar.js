@@ -12,6 +12,8 @@ import {
   DesktopComputerIcon,
   UserIcon,
 } from "@heroicons/react/outline";
+
+// adding comment
 const Sidebar = () => {
   const [session] = useSession();
   return (
