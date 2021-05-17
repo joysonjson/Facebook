@@ -1,4 +1,6 @@
 import Image from "next/image";
+
+// comme ting
 const StoryCard = ({ name, src, profile }) => {
   return (
     <div className="relative h-14 w-14 md:w-20 md:h-20 lg:h-56 lg:w-32 cursor-pointer overflow-x px-3 transition duration-200 transform ease-in hover:scale-105 hover:animate-pulse ">
@@ -11,7 +13,7 @@ const StoryCard = ({ name, src, profile }) => {
         src={profile}
       />
       <Image
-        className="hidden sm:flex-inline object-cover filter brightness-3 rounded-full lg:rounded-3xl"
+        className="hidden  sm:flex-inline object-cover filter brightness-3 rounded-full lg:rounded-3xl"
         layout="fill"
         src={src}
       />
